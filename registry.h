@@ -11,10 +11,13 @@
 class Registry
 {
 private:
+    HKEY destination;
     HKEY kHey;
+    std::wstring keyName;
 public:
     Registry() = delete;
     Registry(HKEY dest, std::wstring);
+    ~Registry();
 
 
 };
