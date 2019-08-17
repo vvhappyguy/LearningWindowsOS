@@ -71,3 +71,4 @@ Thumbs.db
 *.dll
 *.exe
 
+check-cppcheck-build-dir/
