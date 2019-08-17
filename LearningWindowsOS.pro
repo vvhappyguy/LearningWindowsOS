@@ -27,3 +27,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     registry.h \
     version.h
+
+DISTFILES += \
+    Kernel-Debugging-Commands

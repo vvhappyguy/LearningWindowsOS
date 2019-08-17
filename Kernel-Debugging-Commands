@@ -1,0 +1,6 @@
+"ed nt!Kd_Default_Mask 8"  - turn off DbgPrint() output to WinDBG console.
+
+"dt nt!<structure_name>" - show description of structure's fields.
+Example: dt nt!_eprocess
+
+"!process 0 0" - get (almost) full information about adresses of EPROCESS structure.
