@@ -7,6 +7,7 @@
 #include <cstdio>
 #include <tlhelp32.h>
 #include <string>
+#include <inttypes.h>
 
 class Registry
 {
@@ -19,6 +20,8 @@ public:
     Registry(HKEY dest, std::wstring);
     ~Registry();
 
+    static uint8_t openKey( HKEY   _hKey, LPCSTR _lpSubKey, PHKEY  _phkResult);
+    static uint8_t openKey( HKEY  _hKey, LPCWSTR _lpSubKey,PHKEY   _phkResult);
 
 };
 

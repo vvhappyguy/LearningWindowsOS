@@ -36,4 +36,24 @@ Registry::~Registry()
     this->destination = nullptr;
 }
 
+static bool openKey( HKEY   _hKey, LPCSTR _lpSubKey, PHKEY  _phkResult)
+{
+    if(RegOpenKeyA(_hKey, _lpSubKey, _phkResult) == ERROR_SUCCESS){
+        return true;
+    }
+    else {
+        return false;
+    }
+
+}
+
+static bool openKey( HKEY  _hKey, LPCWSTR _lpSubKey,PHKEY   _phkResult)
+{
+    if(RegOpenKeyW(_hKey, _lpSubKey, _phkResult) == ERROR_SUCCESS){
+        return true;
+    }
+    else {
+        return false;
+    }
+}
 

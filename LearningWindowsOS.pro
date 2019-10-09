@@ -27,6 +27,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     enviroment.h \
+    environment.h \
     registry.h \
     version.h
 
