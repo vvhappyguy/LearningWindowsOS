@@ -72,3 +72,8 @@ Thumbs.db
 *.exe
 
 check-cppcheck-build-dir/
+/IPC/.vs/IPC/v16
+*.tlog
+*.log
+*.iobj
+*.ipdb
