@@ -2,8 +2,9 @@
 #include <windows.h>
 #include <stdio.h>
 #include <conio.h>
-#include <tchar.h>
 #include <string>
+
+#include "Writer.h"
 
 // Class for creating, managing SharedMemory and creating Writers/Reader of created SM-Object
 class SMManager

@@ -1,13 +1,19 @@
 #include "SMManager.h"
 #include <iostream>
+#include <set>
+
+using namespace std;
 
 int main()
 {
-	std::wstring a(L"das");
-	SMManager* sm = new SMManager(a, 1);
-	std::cout << "create:" << sm->createSM() << std::endl;
-	std::cout << "close:" << sm->closeSM() << std::endl;
-	delete sm;
+	set<string> a;
+	a.insert("123");
+
+	set<string> c;
+	c.insert(a.begin(), a.end());
+
+	for (auto& b : c)
+		cout << b;
 
 	return 0;
 }
