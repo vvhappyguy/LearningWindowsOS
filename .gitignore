@@ -77,3 +77,4 @@ check-cppcheck-build-dir/
 *.log
 *.iobj
 *.ipdb
+*.sys
