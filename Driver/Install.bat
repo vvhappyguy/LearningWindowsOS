@@ -1,0 +1,1 @@
+sc create Driver type= kernel binPath= D:\Projects\LearningWindowsOS\x64\Release\Driver.sys

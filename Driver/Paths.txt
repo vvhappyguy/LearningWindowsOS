@@ -1,0 +1,1 @@
+RegistryPathAfterInstall: HKLM\System\CurrentControlSet\Services\Driver
